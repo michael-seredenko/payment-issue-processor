@@ -1,0 +1,59 @@
+[
+  {
+    "id": "cust_042",
+    "email": "alex.chen@email.com",
+    "name": "Alex Chen",
+    "account_created": "2023-08-15",
+    "lifetime_transactions": 12,
+    "lifetime_spend": 1847.50,
+    "successful_payments": 11,
+    "failed_payments": 3,
+    "disputes_filed": 0,
+    "disputes_won": 0,
+    "current_installment_plans": 1,
+    "risk_score": "low"
+  },
+  {
+    "id": "cust_108",
+    "email": "jamie.rodriguez@email.com",
+    "name": "Jamie Rodriguez",
+    "account_created": "2024-01-20",
+    "lifetime_transactions": 4,
+    "lifetime_spend": 580.00,
+    "successful_payments": 3,
+    "failed_payments": 1,
+    "disputes_filed": 1,
+    "disputes_won": 0,
+    "current_installment_plans": 2,
+    "risk_score": "medium"
+  },
+  {
+    "id": "cust_217",
+    "email": "morgan.patel@email.com",
+    "name": "Morgan Patel",
+    "account_created": "2024-06-01",
+    "lifetime_transactions": 2,
+    "lifetime_spend": 312.00,
+    "successful_payments": 2,
+    "failed_payments": 0,
+    "disputes_filed": 0,
+    "disputes_won": 0,
+    "current_installment_plans": 0,
+    "risk_score": "low"
+  },
+  {
+    "id": "cust_315",
+    "email": "taylor.kim@email.com",
+    "name": "Taylor Kim",
+    "account_created": "2022-11-10",
+    "lifetime_transactions": 38,
+    "lifetime_spend": 4205.00,
+    "successful_payments": 36,
+    "failed_payments": 2,
+    "disputes_filed": 0,
+    "disputes_won": 0,
+    "current_installment_plans": 0,
+    "risk_score": "low",
+    "notes": "Long-time customer, subscribed to monthly box for 14 months"
+  }
+]

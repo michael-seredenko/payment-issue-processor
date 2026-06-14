@@ -1,0 +1,13 @@
+node_modules/
+dist/
+
+# Secrets / local env — ignore every .env variant, keep the committed template
+.env
+.env.*
+!.env.example
+
+issues.db
+issues.db-*
+
+# Generated report artifact (npm run report:md)
+results.md

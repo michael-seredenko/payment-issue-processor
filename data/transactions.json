@@ -1,0 +1,83 @@
+[
+  {
+    "id": "txn_5521",
+    "customer_id": "cust_042",
+    "merchant": "TechGadgets.com",
+    "amount": 89.99,
+    "payment_method": "card_visa_4242",
+    "status": "failed",
+    "failure_reason": "insufficient_funds",
+    "created_at": "2025-01-13T03:20:00Z",
+    "installment_plan": null
+  },
+  {
+    "id": "txn_4892",
+    "customer_id": "cust_108",
+    "merchant": "FitnessGear.com",
+    "amount": 250.00,
+    "payment_method": "card_mc_5555",
+    "status": "active_installment",
+    "created_at": "2024-12-01T14:30:00Z",
+    "installment_plan": {
+      "total_installments": 4,
+      "amount_per_installment": 62.50,
+      "installments_paid": 2,
+      "next_due_date": "2025-01-08"
+    }
+  },
+  {
+    "id": "txn_6103",
+    "customer_id": "cust_217",
+    "merchant": "FashionForward",
+    "amount": 249.00,
+    "payment_method": "card_visa_1234",
+    "status": "completed",
+    "created_at": "2025-01-01T16:45:00Z",
+    "installment_plan": null,
+    "shipping": {
+      "carrier": "UPS",
+      "tracking_number": "1Z999AA10123456784",
+      "status": "in_transit",
+      "estimated_delivery": "2025-01-14",
+      "last_update": "2025-01-12T09:00:00Z",
+      "last_location": "Distribution Center, Chicago IL"
+    }
+  },
+  {
+    "id": "txn_5998",
+    "customer_id": "cust_042",
+    "merchant": "HomeEssentials",
+    "amount": 149.00,
+    "payment_method": "card_visa_4242",
+    "status": "active_installment",
+    "created_at": "2025-01-10T11:20:00Z",
+    "installment_plan": {
+      "total_installments": 4,
+      "amount_per_installment": 37.25,
+      "installments_paid": 1,
+      "next_due_date": "2025-02-10"
+    },
+    "shipping": {
+      "carrier": "FedEx",
+      "tracking_number": "794644790132",
+      "status": "not_shipped",
+      "estimated_ship_date": "2025-01-15"
+    }
+  },
+  {
+    "id": "txn_6201",
+    "customer_id": "cust_315",
+    "merchant": "SubscriptionBox.co",
+    "amount": 34.99,
+    "payment_method": "card_amex_3782",
+    "status": "failed",
+    "failure_reason": "card_expired",
+    "created_at": "2025-01-13T02:00:00Z",
+    "is_recurring": true,
+    "subscription": {
+      "months_active": 14,
+      "monthly_amount": 34.99,
+      "next_box_ships": "2025-01-20"
+    }
+  }
+]
